@@ -1,0 +1,149 @@
+body {
+    margin:  auto;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+    background-color: #242a31;
+}
+html {
+    scroll-behavior: smooth;
+}
+.box_1 {
+    background-color: #242a31;
+}
+#logo {
+    width: 100px;
+}
+#logo_footer_image
+.logo_name {
+    width: 120px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #d1d2d3;
+    border-right: 2px solid #d1d2d3;
+    padding-left: 1em;
+}
+.logo_name_disc {
+    width: 200px;
+    padding-left: 1em;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d1d2d3;
+}
+.content_left {
+    display: flex;
+    width: 40%;
+    padding-left: 6em;
+    padding-top: 2em;
+    justify-content: flex-start;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.content_right {
+    padding-right: 6em;
+    display: flex;
+    align-items: center;
+}
+.content_right>ol>li {
+    list-style-type:  none;
+    display: inline-block;
+    color: #d1d2d3;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.content_right>ol>li>a {
+    text-decoration: none;
+    color: #d1d2d3;
+}
+.content_right>ol>li>a:hover {
+    color: #ff2854;
+}
+.content_right>ol>li>a:active {
+    color: #ff2854;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff2854;
+    padding-left: 4.5em;
+    padding-top: 1em;
+}
+.privacy_text {
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: bold;
+    
+    padding-left: 6em;
+    padding-right: 4em;
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: #242a31;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+.nav_foo_1 {
+    display: flex;
+    width: 450px;
+}
+.nav_foo_2 {
+    width: 450px;
+    padding-left: 40px;
+}
+.nav_foo_1>ol>li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+.nav_foo_1>ol>li>a {
+    text-decoration: none;
+    color: #fefefe;
+}
+.nav_foo_1>ol>li>a:hover {
+    color: #ff2854;
+}
+.logo_footer {
+    padding-top: 5em;
+}
+.contacts>p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fefefe;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.contacts {
+    padding-top: 3em;
+}
+hr {
+    margin: 0;
+}
+.button_call {
+    border-color: #ff2854;
+    background-color: #ff2854;
+    color: #fefefe;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(12%, 96%, 93%, 1);
+    cursor: pointer;
+}
+.button_call:hover {
+    color: #1ff5ee;
+}
